@@ -1,5 +1,5 @@
 #! /bin/sh
-filename=$(noext "$1")
+filename=$(rmext "$1")
 if openssl enc -aes-256-cbc -d -in "$1" > "${filename}" ; then
         rm -f "$1"
 else

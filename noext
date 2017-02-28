@@ -1,4 +1,0 @@
-#! /bin/sh
-filename=$(basename "$1")
-filename="${filename%.*}"
-echo "$filename"

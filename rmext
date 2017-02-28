@@ -1,0 +1,3 @@
+#! /bin/sh
+fullfile="$1"
+echo "${fullfile%.*}"
